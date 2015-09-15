@@ -35,6 +35,8 @@ cache: bundler
 before_install:
   - npm i -g jshint
   - jshint .
+  - wget https://download.srcclr.com/console/srcclr-console-latest.zip && unzip -d srcclr srcclr-console-latest.zip 
+  - export PATH=$PATH:$PWD/srcclr/
 
 before_script:
   - bundle exec rake db:create db:migrate
