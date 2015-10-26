@@ -1,0 +1,1748 @@
+* [Engine Configuration] [Tue Oct 20 20:12:23 PDT 2015] - Configuring engine for scan on /Users/skinzer/Documents/Github/discourse
+* [Evidence Collection] [Tue Oct 20 20:12:23 PDT 2015] - Starting scan using external build tools, this may take several minutes.
+* [Evidence Collection] [Tue Oct 20 20:12:23 PDT 2015] - Scanning with Gem Native Collector
+* [Evidence Collection] [Tue Oct 20 20:12:32 PDT 2015] - Evidence collection completed.
+
+ -> Attempting to match evidence using the SRC:CLR API...
+ -> matched in 4 seconds.
+
+
+Rendering Matched Components
+============================
+
+[Component] hike
+     Coordinates:     hike:1.2.3
+            Link:     https://app.srcclr.com/catalog/components/503?version=1.2.3
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> sprockets:2.11.0 -> hike:1.2.3]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> sprockets:2.11.0 -> hike:1.2.3]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets:2.11.0 -> hike:1.2.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> sprockets:2.11.0 -> hike:1.2.3]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> ember-handlebars-template:0.1.5 -> sprockets:2.11.0 -> hike:1.2.3]
+
+[Component] shoulda
+     Coordinates:     shoulda:3.5.0
+            Link:     https://app.srcclr.com/catalog/components/80?version=3.5.0
+           Paths:     Gemfile.lock#L471 [Direct]
+
+[Component] image_optim
+     Coordinates:     image_optim:0.20.2
+            Link:     https://app.srcclr.com/catalog/components/29?version=0.20.2
+           Paths:     Gemfile.lock#L419 [Direct]
+
+[Component] given_core
+     Coordinates:     given_core:3.5.4
+            Link:     https://app.srcclr.com/catalog/components/499?version=3.5.4
+           Paths:     Gemfile.lock#L463 [rspec-given:3.5.4 -> given_core:3.5.4]
+
+[Component] unf_ext
+     Coordinates:     unf_ext:0.0.6
+            Link:     https://app.srcclr.com/catalog/components/539?version=0.0.6
+           Paths:     Gemfile.lock#L482 [unf:0.1.4 -> unf_ext:0.0.6]
+
+[Component] progress
+     Coordinates:     progress:3.1.0
+            Link:     https://app.srcclr.com/catalog/components/506?version=3.1.0
+           Paths:     Gemfile.lock#L419 [image_optim:0.20.2 -> progress:3.1.0]
+
+[Component] memory_profiler
+     Coordinates:     memory_profiler:0.9.3
+            Link:     https://app.srcclr.com/catalog/components/35?version=0.9.3
+           Paths:     Gemfile.lock#L425 [Direct]
+
+[Component] openid-redis-store
+     Coordinates:     openid-redis-store:0.0.2
+            Link:     https://app.srcclr.com/catalog/components/52?version=0.0.2
+           Paths:     Gemfile.lock#L442 [Direct]
+
+[Component] aws-sdk-resources
+     Coordinates:     aws-sdk-resources:2.0.45
+            Link:     https://app.srcclr.com/catalog/components/2240?version=2.0.45
+           Paths:     Gemfile.lock#L395 [aws-sdk:2.0.45 -> aws-sdk-resources:2.0.45]
+
+[Component] simplecov-html
+     Coordinates:     simplecov-html:0.8.0
+            Link:     https://app.srcclr.com/catalog/components/536?version=0.8.0
+           Paths:     Gemfile.lock#L474 [simplecov:0.9.1 -> simplecov-html:0.8.0]
+
+[Component] rspec-rails
+     Coordinates:     rspec-rails:3.2.1
+            Link:     https://app.srcclr.com/catalog/components/73?version=3.2.1
+           Paths:     Gemfile.lock#L464 [Direct]
+
+[Component] seed-fu
+     Coordinates:     seed-fu:2.3.5
+            Link:     https://app.srcclr.com/catalog/components/79?version=2.3.5
+           Paths:     Gemfile.lock#L470 [Direct]
+
+[Component] actionview
+     Coordinates:     actionview:4.1.10
+            Link:     https://app.srcclr.com/catalog/components/461?version=4.1.10
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> actionview:4.1.10]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10]
+
+[Component] handlebars-source
+     Coordinates:     handlebars-source:2.0.0
+            Link:     https://app.srcclr.com/catalog/components/25?version=2.0.0
+           Paths:     Gemfile.lock#L415 [Direct]
+
+[Component] omniauth-google-oauth2
+     Coordinates:     omniauth-google-oauth2:0.2.5
+            Link:     https://app.srcclr.com/catalog/components/47?version=0.2.5
+           Paths:     Gemfile.lock#L437 [Direct]
+
+[Component] timecop
+     Coordinates:     timecop:0.7.3
+            Link:     https://app.srcclr.com/catalog/components/89?version=0.7.3
+           Paths:     Gemfile.lock#L480 [Direct]
+
+[Component] therubyracer
+     Coordinates:     therubyracer:0.12.2
+            Link:     https://app.srcclr.com/catalog/components/87?version=0.12.2
+           Paths:     Gemfile.lock#L478 [Direct]
+
+[Component] logster
+     Coordinates:     logster:0.8.3
+            Link:     https://app.srcclr.com/catalog/components/32?version=0.8.3
+           Paths:     Gemfile.lock#L422 [Direct]
+
+[Component] raindrops
+     Coordinates:     raindrops:0.13.0
+            Link:     https://app.srcclr.com/catalog/components/526?version=0.13.0
+           Paths:     Gemfile.lock#L483 [unicorn:4.8.3 -> raindrops:0.13.0]
+
+[Component] docile
+     Coordinates:     docile:1.1.5
+            Link:     https://app.srcclr.com/catalog/components/466?version=1.1.5
+           Paths:     Gemfile.lock#L474 [simplecov:0.9.1 -> docile:1.1.5]
+
+[Component] flamegraph
+     Coordinates:     flamegraph:0.1.0
+            Link:     https://app.srcclr.com/catalog/components/21?version=0.1.0
+           Paths:     Gemfile.lock#L412 [Direct]
+
+[Component] hitimes
+     Coordinates:     hitimes:1.2.2
+            Link:     https://app.srcclr.com/catalog/components/1923?version=1.2.2
+           Paths:     Gemfile.lock#L472 [sidekiq:3.3.4 -> celluloid:0.16.0 -> timers:4.0.1 -> hitimes:1.2.2]
+
+[Component] nokogiri
+     Coordinates:     nokogiri:1.6.6.2
+            Link:     https://app.srcclr.com/catalog/components/42?version=1.6.6.2
+           Paths:     Gemfile.lock#L441 [onebox:1.5.22 -> nokogiri:1.6.6.2]
+                      Gemfile.lock#L432 [Direct]
+                      Gemfile.lock#L467 [sanitize:3.1.2 -> nokogiri:1.6.6.2]
+                      Gemfile.lock#L467 [sanitize:3.1.2 -> nokogumbo:1.2.0 -> nokogiri:1.6.6.2]
+                      Gemfile.lock#L466 [ruby-readability:0.7.0 -> nokogiri:1.6.6.2]
+
+[Component] diff-lcs
+     Coordinates:     diff-lcs:1.2.5
+            Link:     https://app.srcclr.com/catalog/components/465?version=1.2.5
+           Paths:     Gemfile.lock#L462 [rspec:3.2.0 -> rspec-expectations:3.2.1 -> diff-lcs:1.2.5]
+                      Gemfile.lock#L462 [rspec:3.2.0 -> rspec-mocks:3.2.1 -> diff-lcs:1.2.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> rspec-mocks:3.2.1 -> diff-lcs:1.2.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> rspec-expectations:3.2.1 -> diff-lcs:1.2.5]
+                      Gemfile.lock#L463 [rspec-given:3.5.4 -> rspec:3.2.0 -> rspec-mocks:3.2.1 -> diff-lcs:1.2.5]
+                      Gemfile.lock#L463 [rspec-given:3.5.4 -> rspec:3.2.0 -> rspec-expectations:3.2.1 -> diff-lcs:1.2.5]
+
+[Component] rbtrace
+     Coordinates:     rbtrace:0.4.7
+            Link:     https://app.srcclr.com/catalog/components/65?version=0.4.7
+           Paths:     Gemfile.lock#L456 [Direct]
+
+[Component] moneta
+     Coordinates:     moneta:0.8.0
+            Link:     https://app.srcclr.com/catalog/components/513?version=0.8.0
+           Paths:     Gemfile.lock#L441 [onebox:1.5.22 -> moneta:0.8.0]
+
+[Component] pry
+     Coordinates:     pry:0.10.1
+            Link:     https://app.srcclr.com/catalog/components/523?version=0.10.1
+           Paths:     Gemfile.lock#L445 [pry-rails:0.3.3 -> pry:0.10.1]
+                      Gemfile.lock#L444 [pry-nav:0.2.4 -> pry:0.10.1]
+
+[Component] ref
+     Coordinates:     ref:1.0.5
+            Link:     https://app.srcclr.com/catalog/components/528?version=1.0.5
+           Paths:     Gemfile.lock#L478 [therubyracer:0.12.2 -> ref:1.0.5]
+
+[Component] rspec
+     Coordinates:     rspec:3.2.0
+            Link:     https://app.srcclr.com/catalog/components/71?version=3.2.0
+           Paths:     Gemfile.lock#L462 [Direct]
+                      Gemfile.lock#L463 [rspec-given:3.5.4 -> rspec:3.2.0]
+
+[Component] connection_pool
+     Coordinates:     connection_pool:2.2.0
+            Link:     https://app.srcclr.com/catalog/components/491?version=2.2.0
+           Paths:     Gemfile.lock#L472 [sidekiq:3.3.4 -> connection_pool:2.2.0]
+
+[Component] spork-rails
+     Coordinates:     spork-rails:4.0.0
+            Link:     https://app.srcclr.com/catalog/components/85?version=4.0.0
+           Paths:     Gemfile.lock#L476 [Direct]
+
+[Component] dotenv
+     Coordinates:     dotenv:1.0.2
+            Link:     https://app.srcclr.com/catalog/components/467?version=1.0.2
+           Paths:     Gemfile.lock#L413 [foreman:0.77.0 -> dotenv:1.0.2]
+
+[Component] thor
+     Coordinates:     thor:0.19.1
+            Link:     https://app.srcclr.com/catalog/components/394?version=0.19.1
+           Paths:     Gemfile.lock#L420 [librarian:0.1.2 -> thor:0.19.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> thor:0.19.1]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> thor:0.19.1]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> thor:0.19.1]
+                      Gemfile.lock#L413 [foreman:0.77.0 -> thor:0.19.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> thor:0.19.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> thor:0.19.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> thor:0.19.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> thor:0.19.1]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> thor:0.19.1]
+
+[Component] message_bus
+     Coordinates:     message_bus:1.0.16
+            Link:     https://app.srcclr.com/catalog/components/36?version=1.0.16
+           Paths:     Gemfile.lock#L426 [Direct]
+
+[Component] ember-source
+     Coordinates:     ember-source:1.11.3.1
+            Link:     https://app.srcclr.com/catalog/components/13?version=1.11.3.1
+           Paths:     Gemfile.lock#L397 [barber:0.9.0 -> ember-source:1.11.3.1]
+                      Gemfile.lock#L404 [Direct]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> ember-source:1.11.3.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> ember-data-source:1.0.0.beta.16.1 -> ember-source:1.11.3.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> ember-handlebars-template:0.1.5 -> barber:0.9.0 -> ember-source:1.11.3.1]
+
+[Component] htmlentities
+     Coordinates:     htmlentities:4.3.3
+            Link:     https://app.srcclr.com/catalog/components/28?version=4.3.3
+           Paths:     Gemfile.lock#L418 [Direct]
+
+[Component] mustache
+     Coordinates:     mustache:1.0.2
+            Link:     https://app.srcclr.com/catalog/components/41?version=1.0.2
+           Paths:     Gemfile.lock#L441 [onebox:1.5.22 -> mustache:1.0.2]
+                      Gemfile.lock#L431 [Direct]
+
+[Component] execjs
+     Coordinates:     execjs:2.5.2
+            Link:     https://app.srcclr.com/catalog/components/486?version=2.5.2
+           Paths:     Gemfile.lock#L397 [barber:0.9.0 -> execjs:2.5.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> ember-handlebars-template:0.1.5 -> barber:0.9.0 -> execjs:2.5.2]
+                      Gemfile.lock#L396 [babel-transpiler:0.6.0 -> execjs:2.5.2]
+                      Gemfile.lock#L481 [uglifier:2.7.1 -> execjs:2.5.2]
+
+[Component] sidekiq
+     Coordinates:     sidekiq:3.3.4
+            Link:     https://app.srcclr.com/catalog/components/81?version=3.3.4
+           Paths:     Gemfile.lock#L472 [Direct]
+
+     *************** Vulnerabilities ***************
+     *    
+     *    [Vulnerability] sidekiq - Cross-site Request Forgery (CSRF)
+     *    Severity:      4.7 / 10
+     *    CVE:           CVE-
+     *    Link:          https://app.srcclr.com/catalog/vulnerabilities/1754
+     *    
+     *    [Vulnerability] sidekiq - Cross-site Scripting (XSS) via Queue Name
+     *    Severity:      4.7 / 10
+     *    CVE:           CVE-
+     *    Link:          https://app.srcclr.com/catalog/vulnerabilities/1755
+     *    
+     *    [Vulnerability] sidekiq - Cross-site Scripting (XSS) via Job Arguments
+     *    Severity:      4.7 / 10
+     *    CVE:           CVE-
+     *    Link:          https://app.srcclr.com/catalog/vulnerabilities/1757
+     *    
+     ***********************************************
+
+[Component] crass
+     Coordinates:     crass:1.0.1
+            Link:     https://app.srcclr.com/catalog/components/463?version=1.0.1
+           Paths:     Gemfile.lock#L467 [sanitize:3.1.2 -> crass:1.0.1]
+
+[Component] rest-client
+     Coordinates:     rest-client:1.7.2
+            Link:     https://app.srcclr.com/catalog/components/68?version=1.7.2
+           Paths:     Gemfile.lock#L459 [Direct]
+
+     *************** Vulnerabilities ***************
+     *    
+     *    [Vulnerability] rest-client -  cleartext password in logs
+     *    Severity:      2.1 / 10
+     *    CVE:           CVE-2015-3448
+     *    Link:          https://app.srcclr.com/catalog/vulnerabilities/1571
+     *    
+     *    [Vulnerability] rest-client - session hijacking
+     *    Severity:      6.0 / 10
+     *    CVE:           CVE-2015-1820
+     *    Link:          https://app.srcclr.com/catalog/vulnerabilities/1550
+     *    
+     ***********************************************
+
+[Component] libv8
+     Coordinates:     libv8:3.16.14.7
+            Link:     https://app.srcclr.com/catalog/components/508?version=3.16.14.7
+           Paths:     Gemfile.lock#L478 [therubyracer:0.12.2 -> libv8:3.16.14.7]
+
+[Component] ember-handlebars-template
+     Coordinates:     ember-handlebars-template:0.1.5
+            Link:     https://app.srcclr.com/catalog/components/6065?version=0.1.5
+           Paths:     Gemfile.lock#L403 [ember-rails:0.18.2 -> ember-handlebars-template:0.1.5]
+
+[Component] tzinfo
+     Coordinates:     tzinfo:1.2.2
+            Link:     https://app.srcclr.com/catalog/components/484?version=1.2.2
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L451 [rails-observers:0.1.2 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L393 [active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L471 [shoulda:3.5.0 -> shoulda-matchers:2.7.0 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2]
+
+[Component] sass-rails
+     Coordinates:     sass-rails:4.0.5
+            Link:     https://app.srcclr.com/catalog/components/78?version=4.0.5
+           Paths:     Gemfile.lock#L469 [Direct]
+
+[Component] binding_of_caller
+     Coordinates:     binding_of_caller:0.7.2
+            Link:     https://app.srcclr.com/catalog/components/9?version=0.7.2
+           Paths:     Gemfile.lock#L399 [Direct]
+
+[Component] faraday
+     Coordinates:     faraday:0.9.1
+            Link:     https://app.srcclr.com/catalog/components/365?version=0.9.1
+           Paths:     Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> faraday:0.9.1]
+                      Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> faraday:0.9.1]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> faraday:0.9.1]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> faraday:0.9.1]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> faraday:0.9.1]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> faraday:0.9.1]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> faraday:0.9.1]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> faraday:0.9.1]
+
+[Component] celluloid
+     Coordinates:     celluloid:0.16.0
+            Link:     https://app.srcclr.com/catalog/components/489?version=0.16.0
+           Paths:     Gemfile.lock#L472 [sidekiq:3.3.4 -> celluloid:0.16.0]
+
+[Component] mini_portile
+     Coordinates:     mini_portile:0.6.2
+            Link:     https://app.srcclr.com/catalog/components/512?version=0.6.2
+           Paths:     Gemfile.lock#L441 [onebox:1.5.22 -> nokogiri:1.6.6.2 -> mini_portile:0.6.2]
+                      Gemfile.lock#L432 [nokogiri:1.6.6.2 -> mini_portile:0.6.2]
+                      Gemfile.lock#L467 [sanitize:3.1.2 -> nokogiri:1.6.6.2 -> mini_portile:0.6.2]
+                      Gemfile.lock#L467 [sanitize:3.1.2 -> nokogumbo:1.2.0 -> nokogiri:1.6.6.2 -> mini_portile:0.6.2]
+                      Gemfile.lock#L466 [ruby-readability:0.7.0 -> nokogiri:1.6.6.2 -> mini_portile:0.6.2]
+
+[Component] fspath
+     Coordinates:     fspath:2.1.1
+            Link:     https://app.srcclr.com/catalog/components/498?version=2.1.1
+           Paths:     Gemfile.lock#L419 [image_optim:0.20.2 -> fspath:2.1.1]
+
+[Component] activesupport
+     Coordinates:     activesupport:4.1.10
+            Link:     https://app.srcclr.com/catalog/components/331?version=4.1.10
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L451 [rails-observers:0.1.2 -> activemodel:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activesupport:4.1.10]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> activesupport:4.1.10]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L393 [active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L471 [shoulda:3.5.0 -> shoulda-matchers:2.7.0 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> activesupport:4.1.10]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10]
+
+     *************** Vulnerabilities ***************
+     *    
+     *    [Vulnerability] ActiveSupport - Cross-Site Scripting (XSS)
+     *    Severity:      3.7 / 10
+     *    CVE:           CVE-2015-3226
+     *    Link:          https://app.srcclr.com/catalog/vulnerabilities/1689
+     *    
+     *    [Vulnerability] activesupport - denial of service (DoS)
+     *    Severity:      3.7 / 10
+     *    CVE:           CVE-2015-3227
+     *    Link:          https://app.srcclr.com/catalog/vulnerabilities/1691
+     *    
+     ***********************************************
+
+[Component] arel
+     Coordinates:     arel:5.0.1.20140414130214
+            Link:     https://app.srcclr.com/catalog/components/481?version=5.0.1.20140414130214
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> arel:5.0.1.20140414130214]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> arel:5.0.1.20140414130214]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> arel:5.0.1.20140414130214]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> arel:5.0.1.20140414130214]
+
+[Component] daemons
+     Coordinates:     daemons:1.2.2
+            Link:     https://app.srcclr.com/catalog/components/464?version=1.2.2
+           Paths:     Gemfile.lock#L479 [thin:1.6.3 -> daemons:1.2.2]
+
+[Component] treetop
+     Coordinates:     treetop:1.4.15
+            Link:     https://app.srcclr.com/catalog/components/509?version=1.4.15
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> mail:2.5.4 -> treetop:1.4.15]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> mail:2.5.4 -> treetop:1.4.15]
+                      Gemfile.lock#L424 [mail:2.5.4 -> treetop:1.4.15]
+
+[Component] builder
+     Coordinates:     builder:3.2.2
+            Link:     https://app.srcclr.com/catalog/components/462?version=3.2.2
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activemodel:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L451 [rails-observers:0.1.2 -> activemodel:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activemodel:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L395 [aws-sdk:2.0.45 -> aws-sdk-resources:2.0.45 -> aws-sdk-core:2.0.45 -> builder:3.2.2]
+                      Gemfile.lock#L393 [active_model_serializers:0.8.3 -> activemodel:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activemodel:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> active_model_serializers:0.8.3 -> activemodel:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activemodel:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> builder:3.2.2]
+
+[Component] uglifier
+     Coordinates:     uglifier:2.7.1
+            Link:     https://app.srcclr.com/catalog/components/90?version=2.7.1
+           Paths:     Gemfile.lock#L481 [Direct]
+
+     *************** Vulnerabilities ***************
+     *    
+     *    [Vulnerability] uglifier - Backdoored JavaScript via Upstream Dependency
+     *    Severity:      4.5 / 10
+     *    CVE:           CVE-
+     *    Link:          https://app.srcclr.com/catalog/vulnerabilities/1772
+     *    
+     ***********************************************
+
+[Component] rack-openid
+     Coordinates:     rack-openid:1.3.1
+            Link:     https://app.srcclr.com/catalog/components/520?version=1.3.1
+           Paths:     Gemfile.lock#L439 [omniauth-openid:1.0.1 -> rack-openid:1.3.1]
+
+[Component] oj
+     Coordinates:     oj:2.12.9
+            Link:     https://app.srcclr.com/catalog/components/43?version=2.12.9
+           Paths:     Gemfile.lock#L433 [Direct]
+
+[Component] trollop
+     Coordinates:     trollop:2.1.1
+            Link:     https://app.srcclr.com/catalog/components/527?version=2.1.1
+           Paths:     Gemfile.lock#L456 [rbtrace:0.4.7 -> trollop:2.1.1]
+
+[Component] omniauth-oauth
+     Coordinates:     omniauth-oauth:1.0.1
+            Link:     https://app.srcclr.com/catalog/components/519?version=1.0.1
+           Paths:     Gemfile.lock#L440 [omniauth-twitter:1.0.1 -> omniauth-oauth:1.0.1]
+
+[Component] excon
+     Coordinates:     excon:0.45.3
+            Link:     https://app.srcclr.com/catalog/components/471?version=0.45.3
+           Paths:     Gemfile.lock#L405 [Direct]
+
+[Component] unicorn
+     Coordinates:     unicorn:4.8.3
+            Link:     https://app.srcclr.com/catalog/components/92?version=4.8.3
+           Paths:     Gemfile.lock#L483 [Direct]
+
+[Component] listen
+     Coordinates:     listen:0.7.3
+            Link:     https://app.srcclr.com/catalog/components/31?version=0.7.3
+           Paths:     Gemfile.lock#L421 [Direct]
+
+[Component] rack-protection
+     Coordinates:     rack-protection:1.5.3
+            Link:     https://app.srcclr.com/catalog/components/59?version=1.5.3
+           Paths:     Gemfile.lock#L475 [sinatra:1.4.5 -> rack-protection:1.5.3]
+                      Gemfile.lock#L449 [Direct]
+
+[Component] active_model_serializers
+     Coordinates:     active_model_serializers:0.8.3
+            Link:     https://app.srcclr.com/catalog/components/1?version=0.8.3
+           Paths:     Gemfile.lock#L393 [Direct]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> active_model_serializers:0.8.3]
+
+[Component] actionpack
+     Coordinates:     actionpack:4.1.10
+            Link:     https://app.srcclr.com/catalog/components/330?version=4.1.10
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10]
+
+[Component] jwt
+     Coordinates:     jwt:1.3.0
+            Link:     https://app.srcclr.com/catalog/components/507?version=1.3.0
+           Paths:     Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> jwt:1.3.0]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> jwt:1.3.0]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> jwt:1.3.0]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> jwt:1.3.0]
+
+[Component] babel-transpiler
+     Coordinates:     babel-transpiler:0.6.0
+            Link:     https://app.srcclr.com/catalog/components/4874?version=0.6.0
+           Paths:     Gemfile.lock#L396 [Direct]
+
+[Component] spork
+     Coordinates:     spork:1.0.0rc4
+            Link:     https://app.srcclr.com/catalog/components/538?version=1.0.0rc4
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> spork:1.0.0rc4]
+
+[Component] sorcerer
+     Coordinates:     sorcerer:1.0.2
+            Link:     https://app.srcclr.com/catalog/components/500?version=1.0.2
+           Paths:     Gemfile.lock#L463 [rspec-given:3.5.4 -> given_core:3.5.4 -> sorcerer:1.0.2]
+
+[Component] sinatra
+     Coordinates:     sinatra:1.4.5
+            Link:     https://app.srcclr.com/catalog/components/84?version=1.4.5
+           Paths:     Gemfile.lock#L475 [Direct]
+
+[Component] omniauth-oauth2
+     Coordinates:     omniauth-oauth2:1.2.0
+            Link:     https://app.srcclr.com/catalog/components/48?version=1.2.0
+           Paths:     Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0]
+                      Gemfile.lock#L438 [Direct]
+
+[Component] unf
+     Coordinates:     unf:0.1.4
+            Link:     https://app.srcclr.com/catalog/components/91?version=0.1.4
+           Paths:     Gemfile.lock#L482 [Direct]
+
+[Component] omniauth-github-discourse
+     Coordinates:     omniauth-github-discourse:1.1.2
+            Link:     https://app.srcclr.com/catalog/components/46?version=1.1.2
+           Paths:     Gemfile.lock#L436 [Direct]
+
+[Component] discourse-qunit-rails
+     Coordinates:     discourse-qunit-rails:0.0.8
+            Link:     https://app.srcclr.com/catalog/components/6067?version=0.0.8
+           Paths:     Gemfile.lock#L401 [Direct]
+
+[Component] puma
+     Coordinates:     puma:2.11.1
+            Link:     https://app.srcclr.com/catalog/components/56?version=2.11.1
+           Paths:     Gemfile.lock#L446 [Direct]
+
+[Component] ember-data-source
+     Coordinates:     ember-data-source:1.0.0.beta.16.1
+            Link:     https://app.srcclr.com/catalog/components/469?version=1.0.0.beta.16.1
+           Paths:     Gemfile.lock#L403 [ember-rails:0.18.2 -> ember-data-source:1.0.0.beta.16.1]
+
+[Component] pg
+     Coordinates:     pg:0.18.1
+            Link:     https://app.srcclr.com/catalog/components/53?version=0.18.1
+           Paths:     Gemfile.lock#L443 [Direct]
+
+[Component] aws-sdk
+     Coordinates:     aws-sdk:2.0.45
+            Link:     https://app.srcclr.com/catalog/components/2073?version=2.0.45
+           Paths:     Gemfile.lock#L395 [Direct]
+
+[Component] debug_inspector
+     Coordinates:     debug_inspector:0.0.2
+            Link:     https://app.srcclr.com/catalog/components/488?version=0.0.2
+           Paths:     Gemfile.lock#L399 [binding_of_caller:0.7.2 -> debug_inspector:0.0.2]
+
+[Component] certified
+     Coordinates:     certified:1.0.0
+            Link:     https://app.srcclr.com/catalog/components/10?version=1.0.0
+           Paths:     Gemfile.lock#L400 [Direct]
+
+[Component] guess_html_encoding
+     Coordinates:     guess_html_encoding:0.0.11
+            Link:     https://app.srcclr.com/catalog/components/501?version=0.0.11
+           Paths:     Gemfile.lock#L466 [ruby-readability:0.7.0 -> guess_html_encoding:0.0.11]
+
+[Component] erubis
+     Coordinates:     erubis:2.7.0
+            Link:     https://app.srcclr.com/catalog/components/479?version=2.7.0
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L398 [better_errors:2.1.1 -> erubis:2.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> erubis:2.7.0]
+
+[Component] librarian
+     Coordinates:     librarian:0.1.2
+            Link:     https://app.srcclr.com/catalog/components/30?version=0.1.2
+           Paths:     Gemfile.lock#L420 [Direct]
+
+[Component] thin
+     Coordinates:     thin:1.6.3
+            Link:     https://app.srcclr.com/catalog/components/88?version=1.6.3
+           Paths:     Gemfile.lock#L479 [Direct]
+
+[Component] onebox
+     Coordinates:     onebox:1.5.22
+            Link:     https://app.srcclr.com/catalog/components/51?version=1.5.22
+           Paths:     Gemfile.lock#L441 [Direct]
+
+[Component] barber
+     Coordinates:     barber:0.9.0
+            Link:     https://app.srcclr.com/catalog/components/6?version=0.9.0
+           Paths:     Gemfile.lock#L397 [Direct]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> ember-handlebars-template:0.1.5 -> barber:0.9.0]
+
+[Component] jquery-rails
+     Coordinates:     jquery-rails:3.1.2
+            Link:     https://app.srcclr.com/catalog/components/413?version=3.1.2
+           Paths:     Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2]
+
+     *************** Vulnerabilities ***************
+     *    
+     *    [Vulnerability] jQuery - Cross-Site Request Forgery (CSRF)
+     *    Severity:      5.0 / 10
+     *    CVE:           CVE-2015-1840
+     *    Link:          https://app.srcclr.com/catalog/vulnerabilities/1688
+     *    
+     ***********************************************
+
+[Component] fast_xor
+     Coordinates:     fast_xor:1.1.3
+            Link:     https://app.srcclr.com/catalog/components/18?version=1.1.3
+           Paths:     Gemfile.lock#L409 [Direct]
+
+[Component] pry-nav
+     Coordinates:     pry-nav:0.2.4
+            Link:     https://app.srcclr.com/catalog/components/54?version=0.2.4
+           Paths:     Gemfile.lock#L444 [Direct]
+
+[Component] rb-inotify
+     Coordinates:     rb-inotify:0.9.5
+            Link:     https://app.srcclr.com/catalog/components/64?version=0.9.5
+           Paths:     Gemfile.lock#L455 [Direct]
+
+[Component] mail
+     Coordinates:     mail:2.5.4
+            Link:     https://app.srcclr.com/catalog/components/34?version=2.5.4
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> mail:2.5.4]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> mail:2.5.4]
+                      Gemfile.lock#L424 [Direct]
+
+[Component] rtlit
+     Coordinates:     rtlit:0.0.5
+            Link:     https://app.srcclr.com/catalog/components/74?version=0.0.5
+           Paths:     Gemfile.lock#L465 [Direct]
+
+[Component] shoulda-context
+     Coordinates:     shoulda-context:1.2.1
+            Link:     https://app.srcclr.com/catalog/components/534?version=1.2.1
+           Paths:     Gemfile.lock#L471 [shoulda:3.5.0 -> shoulda-context:1.2.1]
+
+[Component] netrc
+     Coordinates:     netrc:0.10.3
+            Link:     https://app.srcclr.com/catalog/components/516?version=0.10.3
+           Paths:     Gemfile.lock#L459 [rest-client:1.7.2 -> netrc:0.10.3]
+
+[Component] rmmseg-cpp
+     Coordinates:     rmmseg-cpp:0.2.9
+            Link:     https://app.srcclr.com/catalog/components/70?version=0.2.9
+           Paths:     Gemfile.lock#L461 [Direct]
+
+[Component] omniauth-openid
+     Coordinates:     omniauth-openid:1.0.1
+            Link:     https://app.srcclr.com/catalog/components/49?version=1.0.1
+           Paths:     Gemfile.lock#L439 [Direct]
+
+[Component] rails
+     Coordinates:     rails:4.1.10
+            Link:     https://app.srcclr.com/catalog/components/60?version=4.1.10
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10]
+                      Gemfile.lock#L450 [Direct]
+
+[Component] mime-types
+     Coordinates:     mime-types:1.25.1
+            Link:     https://app.srcclr.com/catalog/components/374?version=1.25.1
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> mail:2.5.4 -> mime-types:1.25.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> mail:2.5.4 -> mime-types:1.25.1]
+                      Gemfile.lock#L424 [mail:2.5.4 -> mime-types:1.25.1]
+                      Gemfile.lock#L459 [rest-client:1.7.2 -> mime-types:1.25.1]
+
+[Component] oauth
+     Coordinates:     oauth:0.4.7
+            Link:     https://app.srcclr.com/catalog/components/518?version=0.4.7
+           Paths:     Gemfile.lock#L440 [omniauth-twitter:1.0.1 -> omniauth-oauth:1.0.1 -> oauth:0.4.7]
+
+[Component] fabrication
+     Coordinates:     fabrication:2.9.8
+            Link:     https://app.srcclr.com/catalog/components/15?version=2.9.8
+           Paths:     Gemfile.lock#L406 [Direct]
+
+[Component] msgpack
+     Coordinates:     msgpack:0.5.11
+            Link:     https://app.srcclr.com/catalog/components/514?version=0.5.11
+           Paths:     Gemfile.lock#L456 [rbtrace:0.4.7 -> msgpack:0.5.11]
+
+[Component] multi_xml
+     Coordinates:     multi_xml:0.5.5
+            Link:     https://app.srcclr.com/catalog/components/515?version=0.5.5
+           Paths:     Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> multi_xml:0.5.5]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> multi_xml:0.5.5]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> multi_xml:0.5.5]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> multi_xml:0.5.5]
+
+[Component] thread_safe
+     Coordinates:     thread_safe:0.3.5
+            Link:     https://app.srcclr.com/catalog/components/483?version=0.3.5
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L451 [rails-observers:0.1.2 -> activemodel:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L451 [rails-observers:0.1.2 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L393 [active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L393 [active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L471 [shoulda:3.5.0 -> shoulda-matchers:2.7.0 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L471 [shoulda:3.5.0 -> shoulda-matchers:2.7.0 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> tzinfo:1.2.2 -> thread_safe:0.3.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> thread_safe:0.3.5]
+
+[Component] ruby-openid
+     Coordinates:     ruby-openid:2.5.0
+            Link:     https://app.srcclr.com/catalog/components/521?version=2.5.0
+           Paths:     Gemfile.lock#L439 [omniauth-openid:1.0.1 -> rack-openid:1.3.1 -> ruby-openid:2.5.0]
+                      Gemfile.lock#L442 [openid-redis-store:0.0.2 -> ruby-openid:2.5.0]
+
+[Component] multipart-post
+     Coordinates:     multipart-post:2.0.0
+            Link:     https://app.srcclr.com/catalog/components/473?version=2.0.0
+           Paths:     Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> faraday:0.9.1 -> multipart-post:2.0.0]
+                      Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> faraday:0.9.1 -> multipart-post:2.0.0]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> faraday:0.9.1 -> multipart-post:2.0.0]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> faraday:0.9.1 -> multipart-post:2.0.0]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> faraday:0.9.1 -> multipart-post:2.0.0]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> faraday:0.9.1 -> multipart-post:2.0.0]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> faraday:0.9.1 -> multipart-post:2.0.0]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> faraday:0.9.1 -> multipart-post:2.0.0]
+
+[Component] rspec-mocks
+     Coordinates:     rspec-mocks:3.2.1
+            Link:     https://app.srcclr.com/catalog/components/531?version=3.2.1
+           Paths:     Gemfile.lock#L462 [rspec:3.2.0 -> rspec-mocks:3.2.1]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> rspec-mocks:3.2.1]
+                      Gemfile.lock#L463 [rspec-given:3.5.4 -> rspec:3.2.0 -> rspec-mocks:3.2.1]
+
+[Component] mock_redis
+     Coordinates:     mock_redis:0.14.0
+            Link:     https://app.srcclr.com/catalog/components/39?version=0.14.0
+           Paths:     Gemfile.lock#L429 [Direct]
+
+[Component] jmespath
+     Coordinates:     jmespath:1.0.2
+            Link:     https://app.srcclr.com/catalog/components/2242?version=1.0.2
+           Paths:     Gemfile.lock#L395 [aws-sdk:2.0.45 -> aws-sdk-resources:2.0.45 -> aws-sdk-core:2.0.45 -> jmespath:1.0.2]
+
+[Component] redcarpet
+     Coordinates:     redcarpet:3.2.2
+            Link:     https://app.srcclr.com/catalog/components/66?version=3.2.2
+           Paths:     Gemfile.lock#L457 [Direct]
+
+[Component] actionmailer
+     Coordinates:     actionmailer:4.1.10
+            Link:     https://app.srcclr.com/catalog/components/457?version=4.1.10
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10]
+
+[Component] image_size
+     Coordinates:     image_size:1.4.1
+            Link:     https://app.srcclr.com/catalog/components/504?version=1.4.1
+           Paths:     Gemfile.lock#L419 [image_optim:0.20.2 -> image_size:1.4.1]
+
+[Component] activemodel
+     Coordinates:     activemodel:4.1.10
+            Link:     https://app.srcclr.com/catalog/components/480?version=4.1.10
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activemodel:4.1.10]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10]
+                      Gemfile.lock#L451 [rails-observers:0.1.2 -> activemodel:4.1.10]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activemodel:4.1.10]
+                      Gemfile.lock#L393 [active_model_serializers:0.8.3 -> activemodel:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activemodel:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> active_model_serializers:0.8.3 -> activemodel:4.1.10]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activemodel:4.1.10]
+
+[Component] aws-sdk-core
+     Coordinates:     aws-sdk-core:2.0.45
+            Link:     https://app.srcclr.com/catalog/components/2241?version=2.0.45
+           Paths:     Gemfile.lock#L395 [aws-sdk:2.0.45 -> aws-sdk-resources:2.0.45 -> aws-sdk-core:2.0.45]
+
+[Component] redis
+     Coordinates:     redis:3.2.1
+            Link:     https://app.srcclr.com/catalog/components/67?version=3.2.1
+           Paths:     Gemfile.lock#L442 [openid-redis-store:0.0.2 -> redis:3.2.1]
+                      Gemfile.lock#L458 [Direct]
+                      Gemfile.lock#L472 [sidekiq:3.3.4 -> redis:3.2.1]
+                      Gemfile.lock#L472 [sidekiq:3.3.4 -> redis-namespace:1.5.2 -> redis:3.2.1]
+                      Gemfile.lock#L426 [message_bus:1.0.16 -> redis:3.2.1]
+
+[Component] rspec-given
+     Coordinates:     rspec-given:3.5.4
+            Link:     https://app.srcclr.com/catalog/components/72?version=3.5.4
+           Paths:     Gemfile.lock#L463 [Direct]
+
+[Component] fast_stack
+     Coordinates:     fast_stack:0.1.0
+            Link:     https://app.srcclr.com/catalog/components/474?version=0.1.0
+           Paths:     Gemfile.lock#L412 [flamegraph:0.1.0 -> fast_stack:0.1.0]
+
+[Component] babel-source
+     Coordinates:     babel-source:4.6.6
+            Link:     https://app.srcclr.com/catalog/components/4877?version=4.6.6
+           Paths:     Gemfile.lock#L396 [babel-transpiler:0.6.0 -> babel-source:4.6.6]
+
+[Component] nokogumbo
+     Coordinates:     nokogumbo:1.2.0
+            Link:     https://app.srcclr.com/catalog/components/517?version=1.2.0
+           Paths:     Gemfile.lock#L467 [sanitize:3.1.2 -> nokogumbo:1.2.0]
+
+[Component] ruby-readability
+     Coordinates:     ruby-readability:0.7.0
+            Link:     https://app.srcclr.com/catalog/components/75?version=0.7.0
+           Paths:     Gemfile.lock#L466 [Direct]
+
+[Component] omniauth-twitter
+     Coordinates:     omniauth-twitter:1.0.1
+            Link:     https://app.srcclr.com/catalog/components/50?version=1.0.1
+           Paths:     Gemfile.lock#L440 [Direct]
+
+[Component] rake-compiler
+     Coordinates:     rake-compiler:0.9.4
+            Link:     https://app.srcclr.com/catalog/components/475?version=0.9.4
+           Paths:     Gemfile.lock#L412 [flamegraph:0.1.0 -> fast_stack:0.1.0 -> rake-compiler:0.9.4]
+                      Gemfile.lock#L409 [fast_xor:1.1.3 -> rake-compiler:0.9.4]
+
+[Component] slop
+     Coordinates:     slop:3.6.0
+            Link:     https://app.srcclr.com/catalog/components/524?version=3.6.0
+           Paths:     Gemfile.lock#L445 [pry-rails:0.3.3 -> pry:0.10.1 -> slop:3.6.0]
+                      Gemfile.lock#L444 [pry-nav:0.2.4 -> pry:0.10.1 -> slop:3.6.0]
+
+[Component] stackprof
+     Coordinates:     stackprof:0.2.7
+            Link:     https://app.srcclr.com/catalog/components/86?version=0.2.7
+           Paths:     Gemfile.lock#L477 [Direct]
+
+[Component] rack-test
+     Coordinates:     rack-test:0.6.3
+            Link:     https://app.srcclr.com/catalog/components/346?version=0.6.3
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> rack-test:0.6.3]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3]
+
+[Component] sprockets
+     Coordinates:     sprockets:2.11.0
+            Link:     https://app.srcclr.com/catalog/components/533?version=2.11.0
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> sprockets:2.11.0]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> sprockets:2.11.0]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets:2.11.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> sprockets:2.11.0]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> ember-handlebars-template:0.1.5 -> sprockets:2.11.0]
+
+[Component] highline
+     Coordinates:     highline:1.7.1
+            Link:     https://app.srcclr.com/catalog/components/26?version=1.7.1
+           Paths:     Gemfile.lock#L420 [librarian:0.1.2 -> highline:1.7.1]
+                      Gemfile.lock#L416 [Direct]
+
+[Component] better_errors
+     Coordinates:     better_errors:2.1.1
+            Link:     https://app.srcclr.com/catalog/components/8?version=2.1.1
+           Paths:     Gemfile.lock#L398 [Direct]
+
+[Component] rack
+     Coordinates:     rack:1.5.5
+            Link:     https://app.srcclr.com/catalog/components/345?version=1.5.5
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> sprockets:2.11.0 -> rack:1.5.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L440 [omniauth-twitter:1.0.1 -> omniauth-oauth:1.0.1 -> omniauth:1.2.2 -> rack:1.5.5]
+                      Gemfile.lock#L448 [rack-mini-profiler:0.9.6 -> rack:1.5.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> sprockets:2.11.0 -> rack:1.5.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets:2.11.0 -> rack:1.5.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L475 [sinatra:1.4.5 -> rack-protection:1.5.3 -> rack:1.5.5]
+                      Gemfile.lock#L475 [sinatra:1.4.5 -> rack:1.5.5]
+                      Gemfile.lock#L446 [puma:2.11.1 -> rack:1.5.5]
+                      Gemfile.lock#L398 [better_errors:2.1.1 -> rack:1.5.5]
+                      Gemfile.lock#L479 [thin:1.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L439 [omniauth-openid:1.0.1 -> rack-openid:1.3.1 -> rack:1.5.5]
+                      Gemfile.lock#L439 [omniauth-openid:1.0.1 -> omniauth:1.2.2 -> rack:1.5.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> sprockets:2.11.0 -> rack:1.5.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> ember-handlebars-template:0.1.5 -> sprockets:2.11.0 -> rack:1.5.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth:1.2.2 -> rack:1.5.5]
+                      Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> omniauth:1.2.2 -> rack:1.5.5]
+                      Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> rack:1.5.5]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> omniauth:1.2.2 -> rack:1.5.5]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> rack:1.5.5]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth:1.2.2 -> rack:1.5.5]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> rack:1.5.5]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> omniauth:1.2.2 -> rack:1.5.5]
+                      Gemfile.lock#L483 [unicorn:4.8.3 -> rack:1.5.5]
+                      Gemfile.lock#L434 [omniauth:1.2.2 -> rack:1.5.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> rack:1.5.5]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> rack-test:0.6.3 -> rack:1.5.5]
+                      Gemfile.lock#L449 [rack-protection:1.5.3 -> rack:1.5.5]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> rack:1.5.5]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> omniauth:1.2.2 -> rack:1.5.5]
+                      Gemfile.lock#L426 [message_bus:1.0.16 -> rack:1.5.5]
+
+[Component] gctools
+     Coordinates:     gctools:0.2.3
+            Link:     https://app.srcclr.com/catalog/components/24?version=0.2.3
+           Paths:     Gemfile.lock#L414 [Direct]
+
+[Component] omniauth-facebook
+     Coordinates:     omniauth-facebook:2.0.0
+            Link:     https://app.srcclr.com/catalog/components/45?version=2.0.0
+           Paths:     Gemfile.lock#L435 [Direct]
+
+[Component] json
+     Coordinates:     json:1.8.3
+            Link:     https://app.srcclr.com/catalog/components/341?version=1.8.3
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L451 [rails-observers:0.1.2 -> activemodel:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L393 [active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L471 [shoulda:3.5.0 -> shoulda-matchers:2.7.0 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> json:1.8.3]
+                      Gemfile.lock#L481 [uglifier:2.7.1 -> json:1.8.3]
+                      Gemfile.lock#L472 [sidekiq:3.3.4 -> json:1.8.3]
+
+[Component] rinku
+     Coordinates:     rinku:1.7.3
+            Link:     https://app.srcclr.com/catalog/components/69?version=1.7.3
+           Paths:     Gemfile.lock#L460 [Direct]
+
+[Component] rake
+     Coordinates:     rake:10.4.2
+            Link:     https://app.srcclr.com/catalog/components/62?version=10.4.2
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> rake:10.4.2]
+                      Gemfile.lock#L453 [Direct]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> rake:10.4.2]
+                      Gemfile.lock#L412 [flamegraph:0.1.0 -> fast_stack:0.1.0 -> rake-compiler:0.9.4 -> rake:10.4.2]
+                      Gemfile.lock#L412 [flamegraph:0.1.0 -> fast_stack:0.1.0 -> rake:10.4.2]
+                      Gemfile.lock#L409 [fast_xor:1.1.3 -> rake:10.4.2]
+                      Gemfile.lock#L409 [fast_xor:1.1.3 -> rake-compiler:0.9.4 -> rake:10.4.2]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> rake:10.4.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> rake:10.4.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> rake:10.4.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> rake:10.4.2]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> rake:10.4.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> rake:10.4.2]
+
+[Component] eventmachine
+     Coordinates:     eventmachine:1.0.7
+            Link:     https://app.srcclr.com/catalog/components/14?version=1.0.7
+           Paths:     Gemfile.lock#L479 [thin:1.6.3 -> eventmachine:1.0.7]
+
+[Component] railties
+     Coordinates:     railties:4.1.10
+            Link:     https://app.srcclr.com/catalog/components/470?version=4.1.10
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10]
+
+[Component] rails-observers
+     Coordinates:     rails-observers:0.1.2
+            Link:     https://app.srcclr.com/catalog/components/61?version=0.1.2
+           Paths:     Gemfile.lock#L451 [Direct]
+
+[Component] annotate
+     Coordinates:     annotate:2.6.6
+            Link:     https://app.srcclr.com/catalog/components/2?version=2.6.6
+           Paths:     Gemfile.lock#L394 [Direct]
+
+[Component] fastimage_discourse
+     Coordinates:     fastimage_discourse:1.6.6
+            Link:     https://app.srcclr.com/catalog/components/3821?version=1.6.6
+           Paths:     Gemfile.lock#L411 [Direct]
+
+[Component] sprockets-rails
+     Coordinates:     sprockets-rails:2.0.1
+            Link:     https://app.srcclr.com/catalog/components/525?version=2.0.1
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1]
+
+[Component] oauth2
+     Coordinates:     oauth2:1.0.0
+            Link:     https://app.srcclr.com/catalog/components/378?version=1.0.0
+           Paths:     Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> oauth2:1.0.0]
+
+[Component] minitest
+     Coordinates:     minitest:5.6.1
+            Link:     https://app.srcclr.com/catalog/components/37?version=5.6.1
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L451 [rails-observers:0.1.2 -> activemodel:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L393 [active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L471 [shoulda:3.5.0 -> shoulda-matchers:2.7.0 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> minitest:5.6.1]
+                      Gemfile.lock#L427 [Direct]
+
+[Component] activerecord
+     Coordinates:     activerecord:4.1.10
+            Link:     https://app.srcclr.com/catalog/components/329?version=4.1.10
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10]
+
+[Component] fakeweb
+     Coordinates:     fakeweb:1.3.0
+            Link:     https://app.srcclr.com/catalog/components/16?version=1.3.0
+           Paths:     Gemfile.lock#L407 [Direct]
+
+[Component] rspec-core
+     Coordinates:     rspec-core:3.2.3
+            Link:     https://app.srcclr.com/catalog/components/529?version=3.2.3
+           Paths:     Gemfile.lock#L462 [rspec:3.2.0 -> rspec-core:3.2.3]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> rspec-core:3.2.3]
+                      Gemfile.lock#L463 [rspec-given:3.5.4 -> rspec:3.2.0 -> rspec-core:3.2.3]
+
+[Component] lru_redux
+     Coordinates:     lru_redux:1.1.0
+            Link:     https://app.srcclr.com/catalog/components/33?version=1.1.0
+           Paths:     Gemfile.lock#L423 [Direct]
+
+[Component] hiredis
+     Coordinates:     hiredis:0.6.0
+            Link:     https://app.srcclr.com/catalog/components/27?version=0.6.0
+           Paths:     Gemfile.lock#L417 [Direct]
+
+[Component] fast_blank
+     Coordinates:     fast_blank:0.0.2
+            Link:     https://app.srcclr.com/catalog/components/17?version=0.0.2
+           Paths:     Gemfile.lock#L408 [Direct]
+
+[Component] foreman
+     Coordinates:     foreman:0.77.0
+            Link:     https://app.srcclr.com/catalog/components/23?version=0.77.0
+           Paths:     Gemfile.lock#L413 [Direct]
+
+[Component] shoulda-matchers
+     Coordinates:     shoulda-matchers:2.7.0
+            Link:     https://app.srcclr.com/catalog/components/535?version=2.7.0
+           Paths:     Gemfile.lock#L471 [shoulda:3.5.0 -> shoulda-matchers:2.7.0]
+
+[Component] in_threads
+     Coordinates:     in_threads:1.3.1
+            Link:     https://app.srcclr.com/catalog/components/505?version=1.3.1
+           Paths:     Gemfile.lock#L419 [image_optim:0.20.2 -> in_threads:1.3.1]
+
+[Component] fast_xs
+     Coordinates:     fast_xs:0.8.0
+            Link:     https://app.srcclr.com/catalog/components/19?version=0.8.0
+           Paths:     Gemfile.lock#L410 [Direct]
+
+[Component] metaclass
+     Coordinates:     metaclass:0.0.4
+            Link:     https://app.srcclr.com/catalog/components/510?version=0.0.4
+           Paths:     Gemfile.lock#L428 [mocha:1.1.0 -> metaclass:0.0.4]
+
+[Component] method_source
+     Coordinates:     method_source:0.8.2
+            Link:     https://app.srcclr.com/catalog/components/511?version=0.8.2
+           Paths:     Gemfile.lock#L445 [pry-rails:0.3.3 -> pry:0.10.1 -> method_source:0.8.2]
+                      Gemfile.lock#L444 [pry-nav:0.2.4 -> pry:0.10.1 -> method_source:0.8.2]
+
+[Component] kgio
+     Coordinates:     kgio:2.9.3
+            Link:     https://app.srcclr.com/catalog/components/372?version=2.9.3
+           Paths:     Gemfile.lock#L483 [unicorn:4.8.3 -> kgio:2.9.3]
+
+[Component] polyglot
+     Coordinates:     polyglot:0.3.5
+            Link:     https://app.srcclr.com/catalog/components/522?version=0.3.5
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> mail:2.5.4 -> treetop:1.4.15 -> polyglot:0.3.5]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> mail:2.5.4 -> treetop:1.4.15 -> polyglot:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> mail:2.5.4 -> treetop:1.4.15 -> polyglot:0.3.5]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> mail:2.5.4 -> treetop:1.4.15 -> polyglot:0.3.5]
+                      Gemfile.lock#L424 [mail:2.5.4 -> treetop:1.4.15 -> polyglot:0.3.5]
+                      Gemfile.lock#L424 [mail:2.5.4 -> treetop:1.4.15 -> polyglot:0.3.5]
+
+[Component] sass
+     Coordinates:     sass:3.2.19
+            Link:     https://app.srcclr.com/catalog/components/77?version=3.2.19
+           Paths:     Gemfile.lock#L469 [sass-rails:4.0.5 -> sass:3.2.19]
+                      Gemfile.lock#L468 [Direct]
+
+[Component] simplecov
+     Coordinates:     simplecov:0.9.1
+            Link:     https://app.srcclr.com/catalog/components/83?version=0.9.1
+           Paths:     Gemfile.lock#L474 [Direct]
+
+[Component] simple-rss
+     Coordinates:     simple-rss:1.3.1
+            Link:     https://app.srcclr.com/catalog/components/82?version=1.3.1
+           Paths:     Gemfile.lock#L473 [Direct]
+
+[Component] i18n
+     Coordinates:     i18n:0.7.0
+            Link:     https://app.srcclr.com/catalog/components/482?version=0.7.0
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L451 [rails-observers:0.1.2 -> activemodel:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L470 [seed-fu:2.3.5 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> railties:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L401 [discourse-qunit-rails:0.0.8 -> railties:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L393 [active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L471 [shoulda:3.5.0 -> shoulda-matchers:2.7.0 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionmailer:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> railties:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L450 [rails:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> jquery-rails:3.1.2 -> railties:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> active_model_serializers:0.8.3 -> activemodel:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> railties:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activemodel:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L394 [annotate:2.6.6 -> activerecord:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> actionview:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> railties:4.1.10 -> actionpack:4.1.10 -> activesupport:4.1.10 -> i18n:0.7.0]
+
+[Component] mocha
+     Coordinates:     mocha:1.1.0
+            Link:     https://app.srcclr.com/catalog/components/38?version=1.1.0
+           Paths:     Gemfile.lock#L428 [Direct]
+
+[Component] rspec-support
+     Coordinates:     rspec-support:3.2.2
+            Link:     https://app.srcclr.com/catalog/components/1930?version=3.2.2
+           Paths:     Gemfile.lock#L462 [rspec:3.2.0 -> rspec-expectations:3.2.1 -> rspec-support:3.2.2]
+                      Gemfile.lock#L462 [rspec:3.2.0 -> rspec-mocks:3.2.1 -> rspec-support:3.2.2]
+                      Gemfile.lock#L462 [rspec:3.2.0 -> rspec-core:3.2.3 -> rspec-support:3.2.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> rspec-support:3.2.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> rspec-core:3.2.3 -> rspec-support:3.2.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> rspec-mocks:3.2.1 -> rspec-support:3.2.2]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> rspec-expectations:3.2.1 -> rspec-support:3.2.2]
+                      Gemfile.lock#L463 [rspec-given:3.5.4 -> rspec:3.2.0 -> rspec-core:3.2.3 -> rspec-support:3.2.2]
+                      Gemfile.lock#L463 [rspec-given:3.5.4 -> rspec:3.2.0 -> rspec-mocks:3.2.1 -> rspec-support:3.2.2]
+                      Gemfile.lock#L463 [rspec-given:3.5.4 -> rspec:3.2.0 -> rspec-expectations:3.2.1 -> rspec-support:3.2.2]
+
+[Component] timers
+     Coordinates:     timers:4.0.1
+            Link:     https://app.srcclr.com/catalog/components/490?version=4.0.1
+           Paths:     Gemfile.lock#L472 [sidekiq:3.3.4 -> celluloid:0.16.0 -> timers:4.0.1]
+
+[Component] exifr
+     Coordinates:     exifr:1.2.2
+            Link:     https://app.srcclr.com/catalog/components/472?version=1.2.2
+           Paths:     Gemfile.lock#L419 [image_optim:0.20.2 -> exifr:1.2.2]
+
+[Component] email_reply_parser
+     Coordinates:     email_reply_parser:0.5.8
+            Link:     https://app.srcclr.com/catalog/components/93?version=0.5.8
+           Paths:     Gemfile.lock#L402 [Direct]
+
+[Component] r2
+     Coordinates:     r2:0.2.5
+            Link:     https://app.srcclr.com/catalog/components/5590?version=0.2.5
+           Paths:     Gemfile.lock#L447 [Direct]
+
+[Component] omniauth
+     Coordinates:     omniauth:1.2.2
+            Link:     https://app.srcclr.com/catalog/components/44?version=1.2.2
+           Paths:     Gemfile.lock#L440 [omniauth-twitter:1.0.1 -> omniauth-oauth:1.0.1 -> omniauth:1.2.2]
+                      Gemfile.lock#L439 [omniauth-openid:1.0.1 -> omniauth:1.2.2]
+                      Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth:1.2.2]
+                      Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> omniauth:1.2.2]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> omniauth:1.2.2]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth:1.2.2]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> omniauth:1.2.2]
+                      Gemfile.lock#L434 [Direct]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> omniauth:1.2.2]
+
+[Component] coderay
+     Coordinates:     coderay:1.1.0
+            Link:     https://app.srcclr.com/catalog/components/487?version=1.1.0
+           Paths:     Gemfile.lock#L398 [better_errors:2.1.1 -> coderay:1.1.0]
+                      Gemfile.lock#L445 [pry-rails:0.3.3 -> pry:0.10.1 -> coderay:1.1.0]
+                      Gemfile.lock#L444 [pry-nav:0.2.4 -> pry:0.10.1 -> coderay:1.1.0]
+
+[Component] hashie
+     Coordinates:     hashie:3.4.0
+            Link:     https://app.srcclr.com/catalog/components/502?version=3.4.0
+           Paths:     Gemfile.lock#L440 [omniauth-twitter:1.0.1 -> omniauth-oauth:1.0.1 -> omniauth:1.2.2 -> hashie:3.4.0]
+                      Gemfile.lock#L439 [omniauth-openid:1.0.1 -> omniauth:1.2.2 -> hashie:3.4.0]
+                      Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth:1.2.2 -> hashie:3.4.0]
+                      Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> omniauth:1.2.2 -> hashie:3.4.0]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> omniauth:1.2.2 -> hashie:3.4.0]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth:1.2.2 -> hashie:3.4.0]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> omniauth:1.2.2 -> hashie:3.4.0]
+                      Gemfile.lock#L434 [omniauth:1.2.2 -> hashie:3.4.0]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> omniauth:1.2.2 -> hashie:3.4.0]
+
+[Component] rspec-expectations
+     Coordinates:     rspec-expectations:3.2.1
+            Link:     https://app.srcclr.com/catalog/components/530?version=3.2.1
+           Paths:     Gemfile.lock#L462 [rspec:3.2.0 -> rspec-expectations:3.2.1]
+                      Gemfile.lock#L464 [rspec-rails:3.2.1 -> rspec-expectations:3.2.1]
+                      Gemfile.lock#L463 [rspec-given:3.5.4 -> rspec:3.2.0 -> rspec-expectations:3.2.1]
+
+[Component] rack-mini-profiler
+     Coordinates:     rack-mini-profiler:0.9.6
+            Link:     https://app.srcclr.com/catalog/components/58?version=0.9.6
+           Paths:     Gemfile.lock#L448 [Direct]
+
+[Component] ember-rails
+     Coordinates:     ember-rails:0.18.2
+            Link:     https://app.srcclr.com/catalog/components/12?version=0.18.2
+           Paths:     Gemfile.lock#L403 [Direct]
+
+[Component] tilt
+     Coordinates:     tilt:1.4.1
+            Link:     https://app.srcclr.com/catalog/components/537?version=1.4.1
+           Paths:     Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> sprockets:2.11.0 -> tilt:1.4.1]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> sprockets:2.11.0 -> tilt:1.4.1]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets:2.11.0 -> tilt:1.4.1]
+                      Gemfile.lock#L475 [sinatra:1.4.5 -> tilt:1.4.1]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> sprockets:2.11.0 -> tilt:1.4.1]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> ember-handlebars-template:0.1.5 -> sprockets:2.11.0 -> tilt:1.4.1]
+
+[Component] ffi
+     Coordinates:     ffi:1.9.6
+            Link:     https://app.srcclr.com/catalog/components/476?version=1.9.6
+           Paths:     Gemfile.lock#L456 [rbtrace:0.4.7 -> ffi:1.9.6]
+                      Gemfile.lock#L455 [rb-inotify:0.9.5 -> ffi:1.9.6]
+
+[Component] sanitize
+     Coordinates:     sanitize:3.1.2
+            Link:     https://app.srcclr.com/catalog/components/76?version=3.1.2
+           Paths:     Gemfile.lock#L467 [Direct]
+
+[Component] multi_json
+     Coordinates:     multi_json:1.11.2
+            Link:     https://app.srcclr.com/catalog/components/40?version=1.11.2
+           Paths:     Gemfile.lock#L474 [simplecov:0.9.1 -> multi_json:1.11.2]
+                      Gemfile.lock#L476 [spork-rails:4.0.0 -> rails:4.1.10 -> sprockets-rails:2.0.1 -> sprockets:2.11.0 -> multi_json:1.11.2]
+                      Gemfile.lock#L440 [omniauth-twitter:1.0.1 -> multi_json:1.11.2]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets-rails:2.0.1 -> sprockets:2.11.0 -> multi_json:1.11.2]
+                      Gemfile.lock#L469 [sass-rails:4.0.5 -> sprockets:2.11.0 -> multi_json:1.11.2]
+                      Gemfile.lock#L441 [onebox:1.5.22 -> multi_json:1.11.2]
+                      Gemfile.lock#L395 [aws-sdk:2.0.45 -> aws-sdk-resources:2.0.45 -> aws-sdk-core:2.0.45 -> jmespath:1.0.2 -> multi_json:1.11.2]
+                      Gemfile.lock#L395 [aws-sdk:2.0.45 -> aws-sdk-resources:2.0.45 -> aws-sdk-core:2.0.45 -> multi_json:1.11.2]
+                      Gemfile.lock#L450 [rails:4.1.10 -> sprockets-rails:2.0.1 -> sprockets:2.11.0 -> multi_json:1.11.2]
+                      Gemfile.lock#L403 [ember-rails:0.18.2 -> ember-handlebars-template:0.1.5 -> sprockets:2.11.0 -> multi_json:1.11.2]
+                      Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> multi_json:1.11.2]
+                      Gemfile.lock#L436 [omniauth-github-discourse:1.1.2 -> omniauth-oauth2:1.2.0 -> multi_json:1.11.2]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> multi_json:1.11.2]
+                      Gemfile.lock#L437 [omniauth-google-oauth2:0.2.5 -> omniauth-oauth2:1.2.0 -> multi_json:1.11.2]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> multi_json:1.11.2]
+                      Gemfile.lock#L435 [omniauth-facebook:2.0.0 -> omniauth-oauth2:1.2.0 -> multi_json:1.11.2]
+                      Gemfile.lock#L430 [Direct]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> oauth2:1.0.0 -> multi_json:1.11.2]
+                      Gemfile.lock#L438 [omniauth-oauth2:1.2.0 -> multi_json:1.11.2]
+
+[Component] redis-namespace
+     Coordinates:     redis-namespace:1.5.2
+            Link:     https://app.srcclr.com/catalog/components/382?version=1.5.2
+           Paths:     Gemfile.lock#L472 [sidekiq:3.3.4 -> redis-namespace:1.5.2]
+
+[Component] rb-fsevent
+     Coordinates:     rb-fsevent:0.9.4
+            Link:     https://app.srcclr.com/catalog/components/63?version=0.9.4
+           Paths:     Gemfile.lock#L454 [Direct]
+
+[Component] pry-rails
+     Coordinates:     pry-rails:0.3.3
+            Link:     https://app.srcclr.com/catalog/components/55?version=0.3.3
+           Paths:     Gemfile.lock#L445 [Direct]
+
+
+Scan Report for /Users/skinzer/Documents/Github/discourse
+=========================================================
+                Duration:      14 seconds
+          Evidence Count:      179
+      Unique Coordinates:      179
+   Cryptographic Digests:      0
+        Bytecode Digests:      0
+   Vulnerable Components:      5
+      Vulnerable Methods:      Not scanned
+

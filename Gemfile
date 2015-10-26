@@ -36,7 +36,7 @@ gem 'hiredis'
 gem 'redis', require:  ["redis", "redis/connection/hiredis"]
 
 gem 'active_model_serializers', '~> 0.8.3'
-
+#gem 'activesupport','4.2.4'
 gem 'onebox'
 
 gem 'ember-rails'
